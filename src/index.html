@@ -6,11 +6,190 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
 </head>
 
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Works</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="resume">
+            <div class="container">
+                <div class="resume__container">
+                    <div class="resume__header">
+                        <h1 class="resume__title resume__title_main">
+                            Hi, I am John,
+                            <br> Creative Technologist
+                        </h1>
+
+                        <p class="resume__text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis
+                            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <button class="resume__botton">Download Resume</button>
+                    </div>
+                    <div class="resume__header">
+                        <div class="resume__img">
+                            <a href="#"><img src="./images/resume__photo.png" alt="Resume__photo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="post">
+            <div class="container">
+                <div class="post__container">
+                    <div class="post__top">
+                        <p class="post__recent">Recent posts</p>
+                        <a class="post__all" href="#">View all</a>
+                    </div>
+                    <ul class="post__list">
+
+                        <li class="post__item">
+                            <h2 class="post__title">Making a design system from scratch</h2>
+                            <p class="post__subtitle">Design, Pattern</p>
+                            <p class="post__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </li>
+
+                        <li class="post__item">
+                            <h2 class="post__title">Creating pixel perfect icons in Figma</h2>
+                            <p class="post__subtitle">Figma, Icon Design</p>
+                            <p class="post__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="container">
+                <div class="works__container">
+                    <h2 class="works__title">
+                        Featured works
+                    </h2>
+                    <div class="works__container">
+                        <div class="works__item">
+                            <img class="works__img" src="./images/works__design.png" width="246" height="180"
+                                alt="Design">
+                            <div class="works__description description__item">
+                                <h2 class="description__title">Designing Dashboards</h2>
+                                <div class="description__date">
+                                    <time class="description__time">2020</time>
+                                    <p class="description__name">Dashboard</p>
+                                </div>
+
+                                <p class="description__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="works__item">
+                            <img class="works__img" src="./images/works__vibrant.png" width="246" height="180"
+                                alt="Vibrant">
+                            <div class="works__description description__item">
+                                <h2 class="description__title">Vibrant Portraits of 2020</h2>
+                                <div class="description__date">
+                                    <time class="description__time">2018</time>
+                                    <p class="description__name">Illustration</p>
+                                </div>
+
+                                <p class="description__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="works__item">
+                            <img class="works__img" src="./images/works__typography.png" width="246" height="184"
+                                alt="Typography">
+                            <div class="works__description description__item">
+                                <h2 class="description__title">36 Days of Malayalam type</h2>
+                                <div class="description__date">
+                                    <time class="description__time">2018</time>
+                                    <p class="description__name">Typography</p>
+                                </div>
+
+                                <p class="description__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#">
+							<img src="./images/fb.svg" width="37" height="30" alt="Facebook">
+						</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#">
+							<img src="./images/insta.svg" width="37" height="30" alt="Instagram">
+						</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#">
+							<img src="./images/tw.svg" width="37" height="30" alt="Twitter">
+						</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#">
+							<img src="./images/Linkedin.svg" width="37" height="30" alt="Linkedin">
+						</a>
+                    </li>
+                </ul>
+                <div class="footer__copy">
+                    <p>Copyright ©2020 All rights reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
